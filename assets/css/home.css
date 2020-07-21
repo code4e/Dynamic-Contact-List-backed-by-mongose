@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    color: teal;
+}
+.contact-list, .form-field{
+    width: 35%;
+    margin: auto;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    padding: 15px;
+    background-color: steelblue;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: linen;
+}
+li:hover{
+    background-color: lightslategray;
+}
+.del-contact{
+    padding: 5px;
+    background-color: mediumseagreen;
+    color: linen;
+    border: none;
+    text-decoration: none;
+}
+.del-contact:hover{
+    background-color: limegreen;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+}
+form input{
+    width: 40%;
+    padding: 2px;
+}
